@@ -1,0 +1,80 @@
+{
+  "id": "97a31250-8800-40ba-a92e-a396e5079ecb",
+  "version": "2.0",
+  "name": "GOOGLE SELENIUM",
+  "url": "https://www.google.sk",
+  "tests": [{
+    "id": "40023147-fba7-4a97-a039-2770242903a5",
+    "name": "SELENIUM IDE",
+    "commands": [{
+      "id": "94cd3116-dfc3-4d3a-9839-59cc6534045b",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6e1ae297-78e7-43a1-83d6-8d680b6d8009",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1009x1084",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "85220cf1-79d5-44be-ba0f-b2be115d2845",
+      "comment": "",
+      "command": "click",
+      "target": "id=APjFqb",
+      "targets": [
+        ["id=APjFqb", "id"],
+        ["name=q", "name"],
+        ["css=#APjFqb", "css:finder"],
+        ["xpath=//textarea[@id='APjFqb']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "48c088d1-c848-49c5-8aad-78387ddffb23",
+      "comment": "",
+      "command": "type",
+      "target": "id=APjFqb",
+      "targets": [
+        ["id=APjFqb", "id"],
+        ["name=q", "name"],
+        ["css=#APjFqb", "css:finder"],
+        ["xpath=//textarea[@id='APjFqb']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "selenium"
+    }, {
+      "id": "860ee104-ec0e-455f-99ca-b4c2ef299ce9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.WggQGd > span",
+      "targets": [
+        ["css=.WggQGd > span", "css:finder"],
+        ["xpath=//div[@id='jZ2SBf']/div/span", "xpath:idRelative"],
+        ["xpath=//li/div/div[2]/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'selenium ide')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b5a9b566-b1b4-4cd1-9019-fe2e17a649f2",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "e32129d1-d2e9-448a-9f71-b60954735d15",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["40023147-fba7-4a97-a039-2770242903a5"]
+  }],
+  "urls": ["https://www.google.sk/"],
+  "plugins": []
+}

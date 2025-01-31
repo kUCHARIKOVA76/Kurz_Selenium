@@ -1,0 +1,346 @@
+{
+  "id": "db68a577-cb92-4e08-be70-8edae5a4928a",
+  "version": "2.0",
+  "name": "IT PREZENCKA",
+  "url": "https://www.it-academy.sk",
+  "tests": [{
+    "id": "920aa48b-c6da-47a4-b493-b75076b8e52a",
+    "name": "TEST PREZENCKA",
+    "commands": [{
+      "id": "0ea577d2-c22e-40f5-a1b0-baee52e62cf2",
+      "comment": "",
+      "command": "open",
+      "target": "/prezencka/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "67bb899a-50e8-4095-85d3-7b437cd67146",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1009x1084",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "78560a6e-01a9-4c47-8b55-8a46a3cce348",
+      "comment": "",
+      "command": "type",
+      "target": "name=tx_itacademyprez_itaprezencka[newPrezencka][title]",
+      "targets": [
+        ["name=tx_itacademyprez_itaprezencka[newPrezencka][title]", "name"],
+        ["css=.titul", "css:finder"],
+        ["xpath=//input[@name='tx_itacademyprez_itaprezencka[newPrezencka][title]']", "xpath:attributes"],
+        ["xpath=//div[@id='c704']/div/form/table/tbody/tr[3]/td/input", "xpath:idRelative"],
+        ["xpath=//td/input", "xpath:position"]
+      ],
+      "value": "Ing"
+    }, {
+      "id": "c5a24add-3068-4874-b464-fbb6b72f9e82",
+      "comment": "",
+      "command": "click",
+      "target": "name=tx_itacademyprez_itaprezencka[newPrezencka][firstname]",
+      "targets": [
+        ["name=tx_itacademyprez_itaprezencka[newPrezencka][firstname]", "name"],
+        ["css=#firstname > input", "css:finder"],
+        ["xpath=//input[@name='tx_itacademyprez_itaprezencka[newPrezencka][firstname]']", "xpath:attributes"],
+        ["xpath=//td[@id='firstname']/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "57590628-7da7-4447-9417-dcbd14b5c579",
+      "comment": "",
+      "command": "type",
+      "target": "name=tx_itacademyprez_itaprezencka[newPrezencka][firstname]",
+      "targets": [
+        ["name=tx_itacademyprez_itaprezencka[newPrezencka][firstname]", "name"],
+        ["css=#firstname > input", "css:finder"],
+        ["xpath=//input[@name='tx_itacademyprez_itaprezencka[newPrezencka][firstname]']", "xpath:attributes"],
+        ["xpath=//td[@id='firstname']/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": "Martina"
+    }, {
+      "id": "ea9b8c27-79a0-44a0-8077-e5e495219692",
+      "comment": "",
+      "command": "type",
+      "target": "name=tx_itacademyprez_itaprezencka[newPrezencka][lastname]",
+      "targets": [
+        ["name=tx_itacademyprez_itaprezencka[newPrezencka][lastname]", "name"],
+        ["css=#lastname > input", "css:finder"],
+        ["xpath=//input[@name='tx_itacademyprez_itaprezencka[newPrezencka][lastname]']", "xpath:attributes"],
+        ["xpath=//td[@id='lastname']/input", "xpath:idRelative"],
+        ["xpath=//td[3]/input", "xpath:position"]
+      ],
+      "value": "KUCHÁRIKOVÁ"
+    }, {
+      "id": "e507135b-3336-4991-a803-cfb082814934",
+      "comment": "",
+      "command": "type",
+      "target": "name=tx_itacademyprez_itaprezencka[newPrezencka][location]",
+      "targets": [
+        ["name=tx_itacademyprez_itaprezencka[newPrezencka][location]", "name"],
+        ["css=tr:nth-child(5) input", "css:finder"],
+        ["xpath=//input[@name='tx_itacademyprez_itaprezencka[newPrezencka][location]']", "xpath:attributes"],
+        ["xpath=//div[@id='c704']/div/form/table/tbody/tr[5]/td/input", "xpath:idRelative"],
+        ["xpath=//tr[5]/td/input", "xpath:position"]
+      ],
+      "value": "Zvlen"
+    }, {
+      "id": "161ec8d0-39be-4168-8a67-9e78f4d93997",
+      "comment": "",
+      "command": "type",
+      "target": "name=tx_itacademyprez_itaprezencka[newPrezencka][lastname]",
+      "targets": [
+        ["name=tx_itacademyprez_itaprezencka[newPrezencka][lastname]", "name"],
+        ["css=#lastname > .valid", "css:finder"],
+        ["xpath=//input[@name='tx_itacademyprez_itaprezencka[newPrezencka][lastname]']", "xpath:attributes"],
+        ["xpath=//td[@id='lastname']/input", "xpath:idRelative"],
+        ["xpath=//td[3]/input", "xpath:position"]
+      ],
+      "value": "KUCHÁRIKOVÁ"
+    }, {
+      "id": "90ce629c-82f1-4a0b-a2b7-e50f5857e030",
+      "comment": "",
+      "command": "click",
+      "target": "id=datepicker",
+      "targets": [
+        ["id=datepicker", "id"],
+        ["name=tx_itacademyprez_itaprezencka[newPrezencka][birthdate]", "name"],
+        ["css=#datepicker", "css:finder"],
+        ["xpath=//input[@id='datepicker']", "xpath:attributes"],
+        ["xpath=//td[@id='birthdate']/input", "xpath:idRelative"],
+        ["xpath=//tr[4]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a82ccf8-6374-48ec-a028-42f48dc3bbbb",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=29",
+      "targets": [
+        ["linkText=29", "linkText"],
+        ["css=.ui-state-highlight", "css:finder"],
+        ["xpath=//a[contains(text(),'29')]", "xpath:link"],
+        ["xpath=//div[@id='ui-datepicker-div']/table/tbody/tr[5]/td[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[30]", "xpath:href"],
+        ["xpath=//tr[5]/td[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'29')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7148dc3e-29e8-4e33-89a6-9fc4d05551e9",
+      "comment": "",
+      "command": "click",
+      "target": "name=tx_itacademyprez_itaprezencka[newPrezencka][email]",
+      "targets": [
+        ["name=tx_itacademyprez_itaprezencka[newPrezencka][email]", "name"],
+        ["css=tr:nth-child(6) input", "css:finder"],
+        ["xpath=//input[@name='tx_itacademyprez_itaprezencka[newPrezencka][email]']", "xpath:attributes"],
+        ["xpath=//div[@id='c704']/div/form/table/tbody/tr[6]/td/input", "xpath:idRelative"],
+        ["xpath=//tr[6]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d52c07c1-58c2-415f-984b-49f5a8338d37",
+      "comment": "",
+      "command": "type",
+      "target": "name=tx_itacademyprez_itaprezencka[newPrezencka][email]",
+      "targets": [
+        ["name=tx_itacademyprez_itaprezencka[newPrezencka][email]", "name"],
+        ["css=tr:nth-child(6) input", "css:finder"],
+        ["xpath=//input[@name='tx_itacademyprez_itaprezencka[newPrezencka][email]']", "xpath:attributes"],
+        ["xpath=//div[@id='c704']/div/form/table/tbody/tr[6]/td/input", "xpath:idRelative"],
+        ["xpath=//tr[6]/td/input", "xpath:position"]
+      ],
+      "value": "martina.kucharikova@gmail.com"
+    }, {
+      "id": "58cd313e-9ad4-4bd2-9bc0-169f8a16a336",
+      "comment": "",
+      "command": "type",
+      "target": "name=tx_itacademyprez_itaprezencka[newPrezencka][firstname]",
+      "targets": [
+        ["name=tx_itacademyprez_itaprezencka[newPrezencka][firstname]", "name"],
+        ["css=#firstname > .valid", "css:finder"],
+        ["xpath=//input[@name='tx_itacademyprez_itaprezencka[newPrezencka][firstname]']", "xpath:attributes"],
+        ["xpath=//td[@id='firstname']/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": "Ing."
+    }, {
+      "id": "10dd9df3-a2e7-4390-8291-3281b05317aa",
+      "comment": "",
+      "command": "type",
+      "target": "name=tx_itacademyprez_itaprezencka[newPrezencka][location]",
+      "targets": [
+        ["name=tx_itacademyprez_itaprezencka[newPrezencka][location]", "name"],
+        ["css=tr:nth-child(5) .valid", "css:finder"],
+        ["xpath=//input[@name='tx_itacademyprez_itaprezencka[newPrezencka][location]']", "xpath:attributes"],
+        ["xpath=//div[@id='c704']/div/form/table/tbody/tr[5]/td/input", "xpath:idRelative"],
+        ["xpath=//tr[5]/td/input", "xpath:position"]
+      ],
+      "value": "Zvolen"
+    }, {
+      "id": "dd6e4bdb-e671-4718-b813-90f373d7d0ae",
+      "comment": "",
+      "command": "click",
+      "target": "name=tx_itacademyprez_itaprezencka[newPrezencka][password]",
+      "targets": [
+        ["name=tx_itacademyprez_itaprezencka[newPrezencka][password]", "name"],
+        ["css=tr:nth-child(7) input", "css:finder"],
+        ["xpath=//input[@name='tx_itacademyprez_itaprezencka[newPrezencka][password]']", "xpath:attributes"],
+        ["xpath=//div[@id='c704']/div/form/table/tbody/tr[7]/td/input", "xpath:idRelative"],
+        ["xpath=//tr[7]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a330012-1253-4e57-828d-898b948a98d6",
+      "comment": "",
+      "command": "type",
+      "target": "name=tx_itacademyprez_itaprezencka[newPrezencka][password]",
+      "targets": [
+        ["name=tx_itacademyprez_itaprezencka[newPrezencka][password]", "name"],
+        ["css=tr:nth-child(7) input", "css:finder"],
+        ["xpath=//input[@name='tx_itacademyprez_itaprezencka[newPrezencka][password]']", "xpath:attributes"],
+        ["xpath=//div[@id='c704']/div/form/table/tbody/tr[7]/td/input", "xpath:idRelative"],
+        ["xpath=//tr[7]/td/input", "xpath:position"]
+      ],
+      "value": "Kucharikova"
+    }, {
+      "id": "ef2c6f94-fcdd-4a2f-808c-f82a6328fd6d",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(9) input:nth-child(2)",
+      "targets": [
+        ["css=tr:nth-child(9) input:nth-child(2)", "css:finder"],
+        ["xpath=(//input[@name='tx_itacademyprez_itaprezencka[sou]'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='c704']/div/form/table/tbody/tr[9]/td/input[2]", "xpath:idRelative"],
+        ["xpath=//td/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0885b10b-9a1c-4d21-9220-5a78bb00d676",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ui-button",
+      "targets": [
+        ["css=.ui-button", "css:finder"],
+        ["xpath=//input[@name='']", "xpath:attributes"],
+        ["xpath=//div[@id='c704']/div/form/table/tbody/tr[10]/td/input", "xpath:idRelative"],
+        ["xpath=//tr[10]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f25f230e-1437-4485-83f2-97302e9bb9e9",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(9) input:nth-child(2)",
+      "targets": [
+        ["css=tr:nth-child(9) input:nth-child(2)", "css:finder"],
+        ["xpath=(//input[@name='tx_itacademyprez_itaprezencka[sou]'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='c704']/div/form/table/tbody/tr[9]/td/input[2]", "xpath:idRelative"],
+        ["xpath=//td/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3a13f4e-92e8-4d8a-846c-9f5fd893ccc6",
+      "comment": "",
+      "command": "click",
+      "target": "name=tx_itacademyprez_itaprezencka[newPrezencka][password]",
+      "targets": [
+        ["name=tx_itacademyprez_itaprezencka[newPrezencka][password]", "name"],
+        ["css=tr:nth-child(7) input", "css:finder"],
+        ["xpath=//input[@name='tx_itacademyprez_itaprezencka[newPrezencka][password]']", "xpath:attributes"],
+        ["xpath=//div[@id='c704']/div/form/table/tbody/tr[7]/td/input", "xpath:idRelative"],
+        ["xpath=//tr[7]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e459aab5-d77f-4f4a-9b50-2a3908cfe72c",
+      "comment": "",
+      "command": "click",
+      "target": "name=tx_itacademyprez_itaprezencka[newPrezencka][password]",
+      "targets": [
+        ["name=tx_itacademyprez_itaprezencka[newPrezencka][password]", "name"],
+        ["css=tr:nth-child(7) input", "css:finder"],
+        ["xpath=//input[@name='tx_itacademyprez_itaprezencka[newPrezencka][password]']", "xpath:attributes"],
+        ["xpath=//div[@id='c704']/div/form/table/tbody/tr[7]/td/input", "xpath:idRelative"],
+        ["xpath=//tr[7]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a5b6bd0d-2a1b-4ce9-9d0d-08fa42b6b9b3",
+      "comment": "",
+      "command": "type",
+      "target": "name=tx_itacademyprez_itaprezencka[newPrezencka][password]",
+      "targets": [
+        ["name=tx_itacademyprez_itaprezencka[newPrezencka][password]", "name"],
+        ["css=tr:nth-child(7) input", "css:finder"],
+        ["xpath=//input[@name='tx_itacademyprez_itaprezencka[newPrezencka][password]']", "xpath:attributes"],
+        ["xpath=//div[@id='c704']/div/form/table/tbody/tr[7]/td/input", "xpath:idRelative"],
+        ["xpath=//tr[7]/td/input", "xpath:position"]
+      ],
+      "value": "ucharikova76"
+    }, {
+      "id": "2dab47b4-0742-472d-b676-add84d76a1ff",
+      "comment": "",
+      "command": "click",
+      "target": "name=tx_itacademyprez_itaprezencka[newPrezencka][password]",
+      "targets": [
+        ["name=tx_itacademyprez_itaprezencka[newPrezencka][password]", "name"],
+        ["css=tr:nth-child(7) .valid", "css:finder"],
+        ["xpath=//input[@name='tx_itacademyprez_itaprezencka[newPrezencka][password]']", "xpath:attributes"],
+        ["xpath=//div[@id='c704']/div/form/table/tbody/tr[7]/td/input", "xpath:idRelative"],
+        ["xpath=//tr[7]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "627218ec-ee57-46a1-af55-c0cb2d4e8127",
+      "comment": "",
+      "command": "click",
+      "target": "id=c704",
+      "targets": [
+        ["id=c704", "id"],
+        ["css=#c704", "css:finder"],
+        ["xpath=//div[@id='c704']", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/div[4]/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "299e66ec-4650-42c9-8fb7-524ff55a3b32",
+      "comment": "",
+      "command": "type",
+      "target": "name=tx_itacademyprez_itaprezencka[newPrezencka][password]",
+      "targets": [
+        ["name=tx_itacademyprez_itaprezencka[newPrezencka][password]", "name"],
+        ["css=tr:nth-child(7) .valid", "css:finder"],
+        ["xpath=//input[@name='tx_itacademyprez_itaprezencka[newPrezencka][password]']", "xpath:attributes"],
+        ["xpath=//div[@id='c704']/div/form/table/tbody/tr[7]/td/input", "xpath:idRelative"],
+        ["xpath=//tr[7]/td/input", "xpath:position"]
+      ],
+      "value": "BPF3D"
+    }, {
+      "id": "81416c4c-84e7-4d13-8f20-b071e485d6e3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ui-button",
+      "targets": [
+        ["css=.ui-button", "css:finder"],
+        ["xpath=//input[@name='']", "xpath:attributes"],
+        ["xpath=//div[@id='c704']/div/form/table/tbody/tr[10]/td/input", "xpath:idRelative"],
+        ["xpath=//tr[10]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c75d210c-a6b6-447f-a250-8d050898dc1a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["920aa48b-c6da-47a4-b493-b75076b8e52a"]
+  }],
+  "urls": ["https://www.it-academy.sk/"],
+  "plugins": []
+}
