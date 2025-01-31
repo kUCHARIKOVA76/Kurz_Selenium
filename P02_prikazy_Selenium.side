@@ -1,0 +1,72 @@
+{
+  "id": "df832ec5-a6cd-4985-8b7c-6f431af96aeb",
+  "version": "2.0",
+  "name": "P02_prikazy_Selenium",
+  "url": "https://www.google.sk",
+  "tests": [{
+    "id": "2f9b4fff-8aca-4e91-8ffd-6a059df63c00",
+    "name": "TC001-Otvorenie-Web-stranky",
+    "commands": [{
+      "id": "3856c3ab-bd02-4144-89bc-4353ed2f6c6c",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.google.sk/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8dceb8be-77a2-4c54-82a6-28795a82b2c1",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.facebook.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4bc932ef-9a7d-4ce4-a2cf-9725edc4c4aa",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.slovensko.sk/titulna-stranka",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "4cff9201-c53f-46cb-ad43-aef80feab00e",
+    "name": "TC002_cakanie_Element",
+    "commands": [{
+      "id": "95ce8665-e2f4-4d30-b893-5bd1522d6219",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.slovensko.sk/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2ea3a202-afb9-41a1-8b1d-6f53ff53c6c0",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=#logo > img",
+      "targets": [
+        ["css=#logo > img", "css:finder"],
+        ["xpath=//img[@alt='Ústredný portál verejných služieb ľuďom']", "xpath:img"],
+        ["xpath=//a[@id='logo']/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": "2000"
+    }, {
+      "id": "0e00891d-db7c-475d-9d63-fbc7cead6eca",
+      "comment": "",
+      "command": "echo",
+      "target": "Test uspesny",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "51540710-6ff9-4bcc-8c0b-82f615489bb3",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["2f9b4fff-8aca-4e91-8ffd-6a059df63c00"]
+  }],
+  "urls": ["https://www.google.sk/"],
+  "plugins": []
+}

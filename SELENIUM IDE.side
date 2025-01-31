@@ -1,0 +1,73 @@
+{
+  "id": "ce08de51-cd90-41b4-a524-325d352d474c",
+  "version": "2.0",
+  "name": "SELENIUM IDE",
+  "url": "https://www.google.sk",
+  "tests": [{
+    "id": "23b20e2b-df7f-407e-8e71-d5b98633dad9",
+    "name": "SELENIUM 1",
+    "commands": [{
+      "id": "f60c06ae-c20c-4883-9f16-992ab16589e1",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "147ea271-b6c7-42c0-929b-92498dc3d93e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1009x1084",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "14118633-f4eb-421a-9f2d-925025cbf412",
+      "comment": "",
+      "command": "click",
+      "target": "id=APjFqb",
+      "targets": [
+        ["id=APjFqb", "id"],
+        ["name=q", "name"],
+        ["css=#APjFqb", "css:finder"],
+        ["xpath=//textarea[@id='APjFqb']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2be3a0ab-8588-4796-92cf-77b9ba9f08ac",
+      "comment": "",
+      "command": "type",
+      "target": "id=APjFqb",
+      "targets": [
+        ["id=APjFqb", "id"],
+        ["name=q", "name"],
+        ["css=#APjFqb", "css:finder"],
+        ["xpath=//textarea[@id='APjFqb']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "seleniu"
+    }, {
+      "id": "18eaa3f1-00cd-4f3c-9268-596ff80f8e97",
+      "comment": "",
+      "command": "click",
+      "target": "css=.WggQGd b",
+      "targets": [
+        ["css=.WggQGd b", "css:finder"],
+        ["xpath=//div[@id='jZ2SBf']/div/span/b", "xpath:idRelative"],
+        ["xpath=//b", "xpath:position"],
+        ["xpath=//b[contains(.,'m ide')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "8d0b0b80-a35a-41d8-9d2b-c5a87847850d",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["23b20e2b-df7f-407e-8e71-d5b98633dad9"]
+  }],
+  "urls": ["https://www.google.sk/"],
+  "plugins": []
+}
